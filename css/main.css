@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Fraunces', serif;
+}
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none ;
+}
+.sayt_header_block{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.sayt_header_list{
+    display: flex;
+}
+.Sayt_header_link{
+padding: 20px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+}
+.Sayt_header_link:hover{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #333D4B;
+}
+.sayt_navbar{
+    margin-left: auto;
+}
+.sayt_main_block{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.sayt_main_list{
+    width: 493px;
+    margin-left: 86px;
+
+}
+.main_great{
+    padding-top:120px;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+.main_start{
+    font-family: 'Barlow';
+    font-style: normal;
+    margin-bottom: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.main_link{
+    padding: 15px 31px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+}
+.main_link:hover{
+    margin-bottom: 200px;
+    padding: 15px 31px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #66D2CF;
+    border-radius: 6px;
+}
+.main_gran_img{
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+}
+.bg_img{
+    background-image: url(../img/Group\ 13.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 1200px;
+    padding-top: 120px;
+}
+.main_garn{
+    padding-bottom: 188px;
+    width: 255px;
+    padding-right: 30px;
+    margin-left: 30px;
+}
+.main_gran_list{
+    display: flex;
+}
+.main_gran_atim{
+    padding-top: 71px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+.main_light{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+.main_why_img{
+    background-color: #272E37;
+    height: 570px;
+}
+.main_why h2{
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.main_why p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+.main_why{
+    padding-top: 120px;
+    padding-bottom: 80px;
+    width: 540px;
+    margin-left: 350px;
+}
+.main_bist_list{
+    position: absolute;
+    display: flex;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.main_bist_listt{
+    padding-top: 56px;
+    padding-bottom: 24px;
+}
+.img{
+    padding-top: 100px;
+}
+.main_bist_titel{
+    padding: 0 48px 24px 47px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.main_bist{
+    height: 382px;
+    margin: 25px;
+    background-color: 
+    #0E8784;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main_list_img{
+    padding-top: 72px;
+}
+.main_now{
+    margin-top: 300px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+.main_list_span{
+    margin-top: 80px;
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    width:760px  ;
+    height: 1px ;
+    background-color: #FDD6BA;
+
+}
+.main_span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    
+}
+
+.main_pick_list{
+    margin-top: 67px;
+    display: flex;
+}
+.main_pick_titel{
+    width: 285px;
+}
+.main_strong{
+    display: inline-block;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    padding-bottom: 38px;
+}
+
+.main_pick_atem{
+    padding-bottom: 50px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+.footer_link{
+    margin-left: 30px;
+}
+.main_from{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+.pink{
+    margin-left: 95px;
+}
+.main_create{
+    margin-top: 64px;
+    padding: 15px 30px;
+    display: inline-block;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #66D2CF;
+    border-radius: 6px;
+}
+.sayt_footer{
+    margin-top: 200px;
+}
+.sayt_footer_blok{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: 
+    #2C343E;
+}
+.footer_list{
+    display: flex;
+}
+.footer_titel{
+    padding: 30px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+.footer_titel:hover{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #FEFCF7;
+}
+.sayt_footer_list{
+    display: flex;
+}
+.sayt_footer_link{
+    padding: 30px;
+}
+.footer_im:hover{
+    background: #FDD6BA;
+}
+.im{
+    color: #FEFCF7;
+}
