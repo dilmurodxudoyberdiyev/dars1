@@ -1,0 +1,96 @@
+.sayt_main_list{
+    background-image: url(../img/sayt_logo.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 480px;
+    border-radius: 20px;
+}
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.sayt_header_block{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.sayt_header_list{
+    list-style: none;
+}
+.sayt_header_titel{
+    margin-left: 30px;
+}
+.sayt_header_list{
+    display: flex;
+}
+.abaut_main_titel{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+.abaut_main_atem{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+.Sayt_header_link{
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+.sayt_main_list1{
+    margin-left: 85px;
+    padding-top: 137px;
+    width: 445px;
+}
+.main_commitment_img{
+    border-radius: 10px;
+    
+}
+.main_commitment{
+    width: 540px;
+    margin-left: 125px;
+    margin-top: 158px;
+}
+.main_commitment_blok{
+    display: flex;
+    margin-top: 168px;
+}
+.main_our_com{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+
+}
+.main_paragrf{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;   
+}
+.main_Uncompromising{
+    background-image: url(../img/Bitmap\ \(1\).svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 200px;
+}
